@@ -1,48 +1,293 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Sir Tim Berners-Lee</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay Hiwale</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
-
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+  </link>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 </head>
 
 <body>
+  <nav class="navbar-inverse my_nav_bar">
 
-    <ul class="menu">
-        <li class="links">Home</li>
-        <li class="links">My Videos</li>
-        <li class="links">Work</li>
-        <li class="links">Writings</li>
-        <li class="links">Contact</li>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
 
-    </ul>
+      </button>
+      <a class="navbar-brand menuname" href="#">Akshay Hiwale</a>
+      <img src="Logo_transperant.png" style="height: 50px; width: 50px;">
 
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img src="stbl.jpg" class="profile" />
-            <h1>I Am <br><span id="name">Tim Berners-Lee</span></h1>
-            <h2> I am the founder of www: World Wide Web</h2>
+    </div>
+
+    <div class="collapse navbar-collapse text-center" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a class="menuli" href="#welcome">HOME</a></li>
+        <li><a class="menuli" href="#about">ABOUT</a></li>
+        <li><a class="menuli" href="#courses">COURSES</a></li>
+        <li><a class="menuli" href="#contact">CONTACT</a></li>
+        <li><a class="menuli" href="#">Practice Test</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <section id="welcome">
+    <br>   <br>
+    <div id="myCarousel" class="carousel slide">
+      <center>
+
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="caroimg" src="AkshayPic.jpeg" style="border: solid 2px cyan;">
+          </div>
+
+          <div class="item">
+            <img class="caroimg" src="Img2.jpeg" style="border: solid 2px cyan;">
+          </div>
+
+          <div class="item">
+            <img class="caroimg" src="Img3.jpeg" style="border: solid 2px cyan;">
+          </div>
+
+          <div class="item">
+            <img class="caroimg" src="Img4.jpeg" style="border: solid 2px cyan;">
+          </div>
+
         </div>
 
-    </section>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background: transparent;">
+          <span class="glyphicon glyphicon-chevron-left" style="color: black;"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: transparent;">
+          <span class="glyphicon glyphicon-chevron-right" style="color: black;"></span>
+        </a>
+
+      </center>
+    </div>
+  </section>
+
+  <hr class="dashed-line">
+
+
+  <section id="about" class="sec1">
+    <br>   <br>
+
+    <div class="container">
+      <br><br>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="AkshayPic.jpeg" class="img-responsive img-thumbnail img-circle " id="aboutakshimg">
+      </div>
+
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 about_text">
+        <h1 class="aboutheading"> About </h1>
+        <p class="aboutpara"> hello oisdfu lsd dshf gesbfusdhfs fsdiufhsdufb sdiufh fhsdu fhef we8hewfhwe8ud qew8hd
+          q8wehdqwh</p>
+        <br>
+        <p class="aboutpara">ihoaweyh vagyed dhueiyrehqiwej[9Q0WEU WOIHE 9PQHEQJ UEQW EOIQWEJ Q290E H2QI2JE9QUE EQWU9E2Q
+          EJQUE[QJE QW </p>
+        <br>
+      </div>
+    </div>
+    <br><br>
+
+  </section>
+
+  <hr class="dashed-line">
+
+  <section id="courses" class="sec1">
+    <br>   <br>
+
+    <h1 class="courseheading"> Courses Offered</h1>
+    <br><br><br>
+
+
+    <div class="courseoffer container">
+
+      <div id="offer1" class="offerdiv  col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <center>
+          <img class="3yearimg img-responsive" src="3year.png" alt="" />
+
+          <ion-icon id="iconup1" class="i1" name="caret-up-circle-outline" style="display: none;"></ion-icon>
+          <ion-icon id="icondown1" class="i1" name="caret-down-circle-outline"></ion-icon>
+        
+        <p style="display: none;" id="offerpara1">
+          MH CET Law is a state level Common Entrance Test conducted by the Directorate of Higher Education,
+          Maharashtra. The exam will be conducted for the candidates seeking admission in 3 & 5 year Law programmes
+          across the Maharashtra state.
+
+          Qualified candidates of this examination will get admission in offered law courses at various Govt. and
+          Private institution located across the state. Here in this article, we have provided the complete details
+          candidates needs to know regarding the MH CET Law Admission.
+        </p>
+      </center>
+      </div>
+
+
+      <div id="offer2" class="offerdiv col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+        <center>
+          <img class="img-responsive" src="5year.png" alt="" />
+
+          <ion-icon id="iconup2" class="i1" name="caret-up-circle-outline" style="display: none;"></ion-icon>
+          <ion-icon id="icondown2" class="i1" name="caret-down-circle-outline"></ion-icon>
+        
+        <p style="display: none;" id="offerpara2">
+          Maharashtra State CET Cell has released the MH CET Law entrance for both 3-year and 5-year LLB entrance
+          test.
+          Maharashtra State CET Cell has released the MH CET Law entrance for both 3-year and 5-year LLB entrance
+          test.
+          Maharashtra State CET Cell has released the MH CET Law entrance for both 3-year and 5-year LLB entrance
+          test.
+          Maharashtra State CET Cell has released the MH CET Law entrance for both 3-year and 5-year LLB entrance
+          test.
+          Maharashtra State CET Cell has released the MH CET Law entrance for both 3-year and 5-year LLB entrance
+          test.
+        </p>
+      </center>
+      </div>
+
+    </div>
+
+  </section>
+
+  <hr class="dashed-line">
+
+  <section id="contact" class="sec1">
+    <br> 
+    <div>
+      <h1 class="contactheading">Contact Details</h1>
+    </div>
+
+    <br><br>
+    <div class="container contactcont">
+
+      <div>
+
+        <div class="box">
+          <div class="icon whatsapp">
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </div>
+          <p>+91 9096962755</p>
+        </div>
+
+        <div class="box">
+          <div class="icon mail">
+            <i class="fas fa-envelope fa-2x"></i>
+          </div>
+          <p id="text">aahiwale12@gmail.com</p>
+          <div id="popup" style="display: none; position: absolute; background-color: lightgray; padding: 10px;">Text has been copied to the clipboard!</div>
+
+        </div>
+
+        <div class="box">
+          <div class="icon instagram">
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <p>Instagram</p>
+        </div>
+
+        <div class="box">
+          <div class="icon facebook">
+            <i class="fab fa-facebook fa-2x"></i>
+          </div>
+          <p>Facebook</p>
+        </div>
+
+        <div class="box">
+          <div class="icon twitter">
+            <i class="fab fa-twitter fa-2x"></i>
+          </div>
+          <p>Twitter</p>
+        </div>
+
+        
+      </div>
 
 
 
-    <section id="bio">
-        <h1>Hi!</h1>
-        <div class="line"></div>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+      <div class="feedback-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <input class="submit" type="submit" value="Submit">
+        </form>
+      </div>
 
-            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
 
-            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
 
-            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
 
-            The Web was first used for e-commerce in 1997.</p>
-    </section>
+    </div>
+  </section>
 
-</body></html>
+
+
+
+  <!-- <div>
+    <br>
+    <h1>Contact Details</h1>
+  </div>
+  <section id="contact">
+    <img src="AkshayPic.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3>Akshay Hiwale</h3>
+
+    <div class="contact_1">
+
+      <a href="mailto:my@gmail.com?Subject=Hi">
+        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;aahiwale12@gmail.com</h5>
+      </a>
+      <a href="#">
+        <h5><i class="fa fa-phone"></i>&nbsp;&nbsp;9096962755</h5>
+      </a>
+
+      <a href="#">
+        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+      </a>
+    </div>
+  </section>
+
+-->
+
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
